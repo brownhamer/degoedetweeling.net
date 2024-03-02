@@ -1,0 +1,140 @@
+body {
+	background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+    color: #666;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgba(100, 100, 100, 0.2);
+	font-size: 18pt;
+	text-align: center;
+	
+	display: inline-block;
+	padding: 3px 11px;
+	
+	background-color: #101010;
+	background: -webkit-linear-gradient(top, #202020, #101010);
+	background: -moz-linear-gradient(top, #202020, #101010);
+	background: -o-linear-gradient(top, #202020, #101010);
+	background: -ms-linear-gradient(top, #202020, #101010);
+	background: linear-gradient(top, #202020, #101010);
+	border-color: #222;
+
+    border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+h2 {
+	font-size: 24pt;
+	text-align: center;
+
+	display: inline-block;
+	padding: 3px 11px;
+
+    border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+a {
+	border-bottom: 1px dashed;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 a {
+	border-color: rgba(100, 100, 100, 0.1);
+	color: rgba(100, 100, 100, 0.2);
+}
+
+h1 a:hover {
+	border-color: rgba(100, 100, 100, 0.8);
+	color: rgba(100, 100, 100, 0.5);
+	text-shadow: 1px 1px 10px rgba(100, 100, 100, 0.3);
+}
+
+.full {
+	width: 100%;
+}
+
+.full td {
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+}
+
+#rik h2 {
+	color: rgba(0, 180, 0, 0.3);
+
+	background-color: #030;
+	background: -webkit-linear-gradient(top, #040, #030);
+	background: -moz-linear-gradient(top, #040, #030);
+	background: -o-linear-gradient(top, #040, #030);
+	background: -ms-linear-gradient(top, #040, #030);
+	background: linear-gradient(top, #040, #030);
+	border-color: #030;
+}
+
+#rik a {
+	border-color: rgba(0, 180, 0, 0.1);
+	color: rgba(0, 180, 0, 0.3);
+}
+
+#rik a:hover {
+	border-color: rgba(0, 180, 0, 0.8);
+	color: rgba(0, 180, 0, 0.5);
+	text-shadow: 1px 1px 10px rgba(0, 180, 0, 0.3);
+}
+
+#tim h2 {
+	color: rgba(200, 0, 0, 0.3);
+	
+	background-color: #400;
+	background: -webkit-linear-gradient(top, #500, #400);
+	background: -moz-linear-gradient(top, #500, #400);
+	background: -o-linear-gradient(top, #500, #400);
+	background: -ms-linear-gradient(top, #500, #400);
+	background: linear-gradient(top, #500, #400);
+	border-color: #400;
+}
+
+#tim a {
+	border-color: rgba(200, 0, 0, 0.1);
+	color: rgba(200, 0, 0, 0.3);
+}
+
+#tim a:hover {
+	border-color: rgba(200, 0, 0, 0.8);
+	color: rgba(200, 0, 0, 0.5);
+	text-shadow: 1px 1px 10px rgba(200, 0, 0, 0.3);
+}
+
+div#footer {
+	background-color: rgba(255, 255, 255, 0.05);
+	bottom: 10px;
+	color: rgba(255, 255, 255, 0.15);
+	font-size: small;
+	padding: 7px;
+	position: absolute;
+	right: 10px;
+	text-align: left;
+}
+
+div#footer a {
+	color: rgba(255, 255, 255, 0.20);
+    text-decoration: none;
+}
+
+div#footer a:hover {
+	color: rgba(255, 255, 255, 0.35);
+    text-decoration: underline;
+}
