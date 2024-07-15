@@ -27,9 +27,6 @@ h2 {
 	display: inline-block;
 	padding: 3px 11px;
     border-radius: 4px;
-    -khtml-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
 }
 
 a {
@@ -41,6 +38,12 @@ a {
 h1 a {
 	border-color: rgb(100 100 100 / 10%);
 	color: rgb(100 100 100 / 20%);
+}
+
+h1 a:hover {
+	border-color: rgb(100 100 100 / 80%);
+	color: rgb(100 100 100 / 50%);
+	text-shadow: 1px 1px 10px rgb(100 100 100 / 30%);
 }
 
 .full {
@@ -89,12 +92,6 @@ div#footer {
 div#footer a {
 	color: rgb(255 255 255 / 20%);
     text-decoration: none;
-}
-
-h1 a:hover {
-	border-color: rgb(100 100 100 / 80%);
-	color: rgb(100 100 100 / 50%);
-	text-shadow: 1px 1px 10px rgb(100 100 100 / 30%);
 }
 
 #rik a:hover {
