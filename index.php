@@ -9,9 +9,7 @@ startHtmlPage('deGoedeTweeling.net');
 
 <table class="full"><tr>
 <td id="rik"><h2><a href="./rik/">Rik</a></h2><br />
-<a href="./rik/games/">Games</a><br />
 </td>
-
 <td id="tim"><h2><a href="./tim/">Tim</a></h2><br />
 </td>
 </tr></table>
