@@ -19,9 +19,6 @@ h1 {
 	background-color: #101010;
 	border-color: #222;
     border-radius: 4px;
-    -khtml-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
 }
 
 h2 {
@@ -46,12 +43,6 @@ h1 a {
 	color: rgb(100 100 100 / 20%);
 }
 
-h1 a:hover {
-	border-color: rgb(100 100 100 / 80%);
-	color: rgb(100 100 100 / 50%);
-	text-shadow: 1px 1px 10px rgb(100 100 100 / 30%);
-}
-
 .full {
 	width: 100%;
 }
@@ -63,7 +54,7 @@ h1 a:hover {
 }
 
 #rik h2 {
-	color: rgba(0, 180, 0, 0.3);
+	color: rgb(0 180 0 / 30%);
 	background-color: #030;
 	border-color: #030;
 }
@@ -71,12 +62,6 @@ h1 a:hover {
 #rik a {
 	border-color: rgb(0 180 0 / 10%);
 	color: rgb(0 180 0 / 30%);
-}
-
-#rik a:hover {
-	border-color: rgb(0 180 0 / 80%);
-	color: rgb(0 180 0 / 50%);
-	text-shadow: 1px 1px 10px rgb(0 180 0 / 30%);
 }
 
 #tim h2 {
@@ -87,13 +72,7 @@ h1 a:hover {
 
 #tim a {
 	border-color: rgb(200 0 0 / 10%);
-	color: rgb(200 0 0 / 30%);
-}
-
-#tim a:hover {
-	border-color: rgb(200 0 0 / 80%);
-	color: rgb(200 0 0 / 50%);
-	text-shadow: 1px 1px 10px rgb(200 0 0 / 30%);
+	color:rgb(200 0 0 / 30%);
 }
 
 div#footer {
@@ -110,6 +89,24 @@ div#footer {
 div#footer a {
 	color: rgb(255 255 255 / 20%);
     text-decoration: none;
+}
+
+h1 a:hover {
+	border-color: rgb(100 100 100 / 80%);
+	color: rgb(100 100 100 / 50%);
+	text-shadow: 1px 1px 10px rgb(100 100 100 / 30%);
+}
+
+#rik a:hover {
+	border-color: rgb(0 180 0 / 80%);
+	color: rgb(0 180 0 / 50%);
+	text-shadow: 1px 1px 10px rgb(0 180 0 / 30%);
+}
+
+#tim a:hover {
+	border-color: rgb(200 0 0 / 80%);
+	color: rgb(200 0 0 / 50%);
+	text-shadow: 1px 1px 10px rgb(200 0 0 / 30%);
 }
 
 div#footer a:hover {
